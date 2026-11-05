@@ -6,9 +6,9 @@ sudo - runs a command with admin power
 useradd testuser - creates a new user 
 passwd testuser - sets that user's password 
 mkdir ~/lab - makes a folder 
-touch /lab/notes.txt - makes an empty file
+touch ~/lab/notes.txt - makes an empty file
 chmod 640 file - sets permissions (owner rw, group r, other none) 
 subscription-manager register - registers the system with Red Hat 
-dnf update - y - updates all software
-chmod - 6 = read or write, 4 = read, 0 = nothing
+dnf update -y - updates all software
+chmod - 6 = read and write, 4 = read, 0 = nothing
 ls -l = lists files with details (permissions, owner, size, date)
